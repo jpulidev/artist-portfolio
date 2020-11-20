@@ -12,7 +12,11 @@ const StaffGrid = styled.div`
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
   padding-bottom: 5%;
-`;
+@media screen and (max-width:1000px){
+
+  grid-template-columns: 1fr;
+}
+  `;
 
 const StaffStyles = styled.div`
   a {
@@ -65,6 +69,8 @@ const InfoGrid = styled.div`
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
+    height: 100%;
+    iframe{width:100%;}
   }
   
 `;
