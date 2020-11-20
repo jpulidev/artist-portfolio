@@ -22,9 +22,10 @@ const ProjectsGridOne = styled.div`
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
+    padding: 11%;
     h1 {
       font-size: 2em;
-      max-width: 243px;
+      
     }
   }
 `;
