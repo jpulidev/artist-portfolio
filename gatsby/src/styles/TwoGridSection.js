@@ -17,5 +17,12 @@ export const TwoGridSection = styled.div`
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
     height: 100%;
+    img{
+      position: relative;
+      top: 0px;
+      left: 0px;
+
+    }
+
   }
 `;

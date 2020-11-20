@@ -35,8 +35,9 @@ const NavStyles = styled.nav`
   }
   @media screen and (max-width: 1000px) {
     ul {
-      grid-template-columns: auto auto auto;
-      grid-gap: 15px;
+      grid-template-columns: 1fr;
+    gap:8px;
+    text-align: center;
     }
   }
 `;
@@ -55,8 +56,8 @@ z-index: 1;
   }
   @media screen and (max-width: 1000px) {
     font-size: 1.4em;
-    text-align: right;
-    right: 15px;
+    right: 49px;
+    text-align: center;
   }
 `;
 

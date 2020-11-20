@@ -35,7 +35,12 @@ export const FirstTitle = styled.div`
     top: 0px;
     padding: 5%;
     h1 {
-      font-size: 2em;
+      font-size: 6em;
+    }
+    h1:nth-child(2){
+      margin-left: 0px;
+      margin-top: 0px;
+  
     }
   }
 `;
