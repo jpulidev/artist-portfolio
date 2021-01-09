@@ -56,9 +56,11 @@ const InfoGrid = styled.div`
   justify-content: center;
   align-items: center;
   height: 600px;
+    max-width: 1400px;
+    margin: 0 auto;
 
   @media (min-width: 1500px) and (max-width: 2560px) {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
