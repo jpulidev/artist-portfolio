@@ -25,13 +25,7 @@ const StaffStyles = styled.div`
   .gatsby-image-wrapper {
     height: 500px;
   }
-  h2 {
-   font-size:0px;
-  }
-  .description {
-   font-size:0px;
-  }
-  :hover{
+
     h2{    text-align: center;
       font-size: 3rem;
       margin-bottom: -2rem;
@@ -53,9 +47,8 @@ const StaffStyles = styled.div`
         webkit-animation-duration: 2s;
     animation-duration: 3s;
         font-size:1.2em;
-        transform: translate(8px, -110px);
+      
       }
-  }
 `;
 const InfoGrid = styled.div`
   display: grid;
