@@ -6,30 +6,33 @@ import { SiGatsby as Gatsby } from 'react-icons/si';
 import { CgFigma as Figma } from 'react-icons/cg';
 
 const FooterStyles = styled.footer`
-  background: var(--black);
-  color: var(--white);
+  background: #f9f3f0;
+  color: var(--black);
   height: 350px;
   margin-top: -18px;
   p {
     text-align: center;
   }
   a {
-    color: #fff;
+    color: var(--black);
     text-align: center;
     font-size: 16px;
   }
 `;
 const FooterGridStyle = styled.div`
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  padding-top: 5%;
+  max-width: 500px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   div,
   ul,
   li,
   a {
-    color: #fff;
+    color: var(--black);
     list-style: none;
     padding: 5px;
   }

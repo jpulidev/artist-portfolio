@@ -43,10 +43,8 @@ const StaffStyles = styled.div`
         position: relative;
         text-align: center;
         color: var(--black);
-        text-align: center;
-        webkit-animation-duration: 2s;
-    animation-duration: 3s;
-        font-size:1.2em;
+        text-align: justify;
+    font-size: 0.8em;
       
       }
 `;

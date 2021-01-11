@@ -82,12 +82,14 @@ export default function Nav() {
               </Link>
             </div>
             <div>
-              <Link to="https://api.whatsapp.com/send?phone=584244047212&text=I%20want%20to%20work%20with%20you!">
+              <Link to="https://api.whatsapp.com/send?phone=584123439612&text=I%20want%20to%20work%20with%20you!">
                 <Whatsapp />
+                Whatsapp
               </Link>
             </div>
             <div>
-              <Link href="mailto:josecpulidoo@gmail.com">
+              <Link href="mailto:ocre01@gmail.com">
+              Gmail
                 <Mail />
               </Link>
             </div>
