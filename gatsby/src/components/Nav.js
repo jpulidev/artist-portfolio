@@ -84,13 +84,13 @@ export default function Nav() {
             <div>
               <Link to="https://api.whatsapp.com/send?phone=584123439612&text=I%20want%20to%20work%20with%20you!">
                 <Whatsapp />
-                Whatsapp
+                 Whatsapp
               </Link>
             </div>
             <div>
               <Link href="mailto:ocre01@gmail.com">
-              Gmail
                 <Mail />
+                 Gmail
               </Link>
             </div>
           </FloatSocials>
