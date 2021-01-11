@@ -59,7 +59,7 @@ export default function Footer() {
         <div>
           <FlexSociales>
             <li>
-              <Link to="https://www.instagram.com/jpulidev/">
+              <Link to="https://www.instagram.com/jhonylunart/">
                 <Instagram />
               </Link>
             </li>

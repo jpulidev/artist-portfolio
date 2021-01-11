@@ -44,15 +44,15 @@ const NavStyles = styled.nav`
 const FloatSocials = styled.div`
 position: relative;
 display: grid;
-grid-template-columns: 130px 100px 100px;
+grid-template-columns: 1fr 1fr 1fr;
 float:right;
 right: 0px;
-font-size: 2em;
+font-size: 1em;
 line-height: 1;
 margin-top: 0px;
 z-index: 1;
   a {
-    font-size: 15px;
+    font-size: 12px;
   }
   @media screen and (max-width: 1000px) {
     font-size: 1.4em;
